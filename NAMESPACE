@@ -2,13 +2,13 @@ import(methods, MASS, nnet, Rsolnp)
 
 importFrom(stats, predict, simulate)
 
-importFrom("stats", "confint", "cov", "cov.wt", "dbinom", "dgamma", "dmultinom",
+importFrom("stats", "cov", "cov.wt", "dbinom", "dgamma", "dmultinom",
              "dnorm", "qnorm", "dpois", "gaussian", "glm.fit", "lm.fit",
              "lm.wfit", "mahalanobis", "make.link", "model.frame",
              "model.matrix", "model.response", "pchisq", "rbinom",
              "rgamma", "rmultinom", "rnorm", "rpois", "sd")
 
-importFrom(stats4, AIC, BIC, logLik, nobs, summary, vcov)
+importFrom(stats4, AIC, BIC, confint, logLik, nobs, summary, vcov)
 
 importFrom(nlme, fdHess)
 
